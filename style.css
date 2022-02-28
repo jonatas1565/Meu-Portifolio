@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Merriweather Sans;
+}
+body{
+    background-color:  #22212C;
+}
+
+h1, p, h2, h3, a {
+    color: #837E9F;
+}
+
+.Box-perfil{
+align-items: center;
+background-color: #302F3D;
+
+width: 348px;
+height: 292px;
+
+border-radius: 20px;
+
+margin-left: 40px;
+margin-top: 40px;
+
+}
+
+#img-perfil{
+    position: absolute;
+width: 128px;
+height: 128px;
+left: 150px;
+top: 72px;
+
+border: 2px solid #00FF00;
+border-radius: 63px;
+box-sizing: border-box;
+
+}
+
+#nome{
+    padding-top: 11.5rem;
+    padding-left: 4rem;
+}
+#descrição{
+    padding-left: 5.5rem;
+}
+
+.Box-Contato{
+    align-items: center;
+    background-color: #302F3D;
+    
+    width: 348px;
+    height: 292px;
+    
+    border-radius: 20px;
+    
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
