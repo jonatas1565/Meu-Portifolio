@@ -13,6 +13,7 @@ h1, p, h2, h3, a {
     color: #837E9F;
 }
 
+/* Style Box perfil*/
 .Box-perfil{
 align-items: center;
 background-color: #302F3D;
@@ -48,8 +49,10 @@ box-sizing: border-box;
     padding-left: 5.5rem;
 }
 
+
+/* Style Box Contato*/
 .Box-Contato{
-    align-items: center;
+    
     background-color: #302F3D;
     
     width: 348px;
@@ -60,4 +63,60 @@ box-sizing: border-box;
     margin-left: 40px;
     margin-top: 40px;
     
+    
+}
+
+#img-cnt{
+    padding-left: 24px;
+    padding-top: 24px;
+margin-right: 10px;
+ 
+
+}
+#a-cnt, #a-cnt-b{
+    text-decoration: none;
+}
+#a-cnt-b:hover{
+    cursor: unset;
+}
+
+/*Box tencologias*/
+
+.Box-Tecnologias{
+    background-color: #302F3D;
+    
+    width: 348px;
+    height: 180px;
+    
+    border-radius: 20px;
+    
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#tecnologias{
+padding-top: 10px;
+padding-left: 20px;
+}
+
+.div-text-tec{
+    display: inline-grid;
+    background: #CB92B1;
+
+  
+
+    border-radius: 30px;
+    margin-top: 13px;
+    margin-left: 10px;
+width: 86px;
+height: 24px;
+
+text-align: center;
+}
+.div-text-tec, #p-tec{
+    padding-top: 2px;
+    color:#000000;
+font-weight: 700;
+font-size: 13px;
+
 }
