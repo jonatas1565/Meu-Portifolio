@@ -120,3 +120,17 @@ font-weight: 700;
 font-size: 13px;
 
 }
+
+#box-educ{
+background-color: #302F3D;
+    
+    width: 348px;
+    height: 180px;
+    
+    border-radius: 20px;
+    
+    margin-left: 40px;
+    margin-top: 40px;
+  
+
+}
