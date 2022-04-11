@@ -45,7 +45,7 @@ box-sizing: border-box;
     padding-top: 11.5rem;
     padding-left: 4rem;
 }
-#descrição{
+#descricao{
     padding-left: 5.5rem;
 }
 
@@ -121,6 +121,7 @@ font-size: 13px;
 
 }
 
+/* box-educ*/
 .box-educ{
 background-color: #302F3D;
     
@@ -131,4 +132,9 @@ background-color: #302F3D;
     
     margin-left: 40px;
     margin-top: 40px;
+}
+
+#p-educ{
+  margin-left: 2%;
+  margin-top: 3%;
 }
