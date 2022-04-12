@@ -133,7 +133,12 @@ background-color: #302F3D;
     margin-left: 40px;
     margin-top: 40px;
 }
-
+#educ{
+  padding-left: 4%;
+  padding-top: 3%;
+  
+  
+}
 #p-educ{
   margin-left: 2%;
   margin-top: 3%;
