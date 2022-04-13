@@ -7,6 +7,7 @@
 }
 body{
     background-color:  #22212C;
+    display: flex;
 }
 
 h1, p, h2, h3, a {
@@ -18,22 +19,21 @@ h1, p, h2, h3, a {
 align-items: center;
 background-color: #302F3D;
 
-width: 348px;
-height: 292px;
+width: 83%;
+height: 29%;
 
 border-radius: 20px;
-
-margin-left: 40px;
-margin-top: 40px;
-
+ position: relative;
+ top: 1%;
+ left: 10%;
 }
 
 #img-perfil{
-    position: absolute;
+    position: relative;
 width: 128px;
 height: 128px;
-left: 150px;
-top: 72px;
+left: 34%;
+top: 10%;
 
 border: 2px solid #00FF00;
 border-radius: 63px;
@@ -42,11 +42,14 @@ box-sizing: border-box;
 }
 
 #nome{
-    padding-top: 11.5rem;
-    padding-left: 4rem;
+    position: relative;
+    left: 25%;
+    top: 10%;
 }
 #descricao{
-    padding-left: 5.5rem;
+    position: relative;
+    top: 10%;
+    left: 28%;
 }
 
 
@@ -55,14 +58,14 @@ box-sizing: border-box;
     
     background-color: #302F3D;
     
-    width: 348px;
+    width: 83%;
     height: 292px;
     
     border-radius: 20px;
+    position: relative;
     
-    margin-left: 40px;
-    margin-top: 40px;
-    
+    left: 10%;
+    top: 2.8%;
     
 }
 
@@ -84,14 +87,17 @@ margin-right: 10px;
 
 .Box-Tecnologias{
     background-color: #302F3D;
+    display: flow-root;
     
-    width: 348px;
-    height: 180px;
+    width: 83%;
+    height: 15%;
     
     border-radius: 20px;
     
-    margin-left: 40px;
-    margin-top: 40px;
+    position: relative;
+
+    left: 10%;
+    top: 4%;
 }
 
 #tecnologias{
@@ -125,21 +131,61 @@ font-size: 13px;
 .box-educ{
 background-color: #302F3D;
     
-    width: 348px;
-    height: 180px;
+    width: 83%;
+    height: 30%;
     
     border-radius: 20px;
-    
-    margin-left: 40px;
-    margin-top: 40px;
+    position: relative;
+    left: 10%;
+    top: 6%;
+}
+#educacao{
+    position: relative;
+    left: 4%;
+    top: 3%;
+
 }
 #educ{
-  padding-left: 4%;
-  padding-top: 3%;
+    position: relative;
+  left: 7%;
+  top: 3%;
   
   
 }
 #p-educ{
-  margin-left: 2%;
+  margin-left: 3%;
   margin-top: 3%;
+}
+
+/* Titulo da parte de projetos */
+.Titulo-projetos{
+    background-color: #302F3D;
+    position: relative;
+
+    top: 2%;
+    padding-left: 2%;
+    margin-bottom: 5%;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 50rem;
+}
+
+#p-titulo{
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+/* caixas dos projetos */
+.boxs-projetos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.projeto{
+    background-color: #302F3D;
+    width: 40%;
+    margin-top: 2%;
 }
