@@ -1,4 +1,8 @@
 @media(max-width:800px){
+  body{
+    display:grid;
+  }
+  
   .img-perfil{
     left:2rem;
   }
