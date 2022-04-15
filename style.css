@@ -180,7 +180,12 @@ background-color: #302F3D;
 /* caixas dos projetos */
 .boxs-projetos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    margin-top: -19px;
+    margin-left: -3rem;
+   
 }
 
 
@@ -188,4 +193,22 @@ background-color: #302F3D;
     background-color: #302F3D;
     width: 40%;
     margin-top: 2%;
+    border-radius: 8px;
+}
+
+#img-projeto{
+    padding: 4px;
+}
+
+#titulo-projeto{
+    position: relative;
+    bottom: 7px;
+}
+
+#repositorio{
+    display: flex;
+    position: relative;
+    bottom: 3px;
+    flex-direction: row-reverse;
+    padding-right: 6px;
 }

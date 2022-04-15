@@ -1,6 +1,6 @@
 @media(max-width:800px){
   body{
-    display:none;
+    display: block;
   }
   
   .img-perfil{
