@@ -6,4 +6,8 @@
   .img-perfil{
     left:2rem;
   }
+  #box-projetos{
+    display: block;
+    background-clip: #fff;
+  }
 }
