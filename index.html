@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
- <link rel="stylesheet" href="./Responsivo.css">
-    <title>Portifolio</title>
+    
+ 
+ 
+  <title>Portifolio</title>
 </head>
+
 <body>
   <section class="box-lateral">
     <!---box perfil-->
@@ -21,13 +26,13 @@
       <h1 id="nome">Jônatas Ferreira</h1>
       <p id="descricao">Front end Developer</p>
     </div>
-      <!---box contato-->
+    <!---box contato-->
     <div class="Box-Contato">
-      <img id="img-cnt"src="./assets/map-pin.svg" alt=""> 
-      <a id="a-cnt-b" href="">Brasil</a>
+      <img id="img-cnt" src="./assets/map-pin.svg" alt="">
+      <a id="a-cnt-b" href="#">Brasil</a>
       <br>
-      <img id="img-cnt"src="./assets/briefcase.svg" alt="">
-      <a id="a-cnt-b" href="">Uninassau</a>
+      <img id="img-cnt" src="./assets/briefcase.svg" alt="">
+      <a id="a-cnt-b" href="#">Uninassau</a>
       <br>
       <img id="img-cnt" src="./assets/github.svg" alt="">
       <a id="a-cnt" href="https://github.com/jonatas1565">Jonatas1565</a>
@@ -36,66 +41,107 @@
       <a id="a-cnt" href="https://www.linkedin.com/in/jonatas1565/">Jônatas Ferreira</a>
       <br>
       <img id="img-cnt" src="./assets/mail.svg" alt="">
-      <a id="a-cnt" href="mailto:jonatasferreira330@gmail.com">jonatasferreira330@gmail.com</a>
+      <a id="a-cnt-c" href="mailto:jonatasferreira330@gmail.com">jonatasferreira330@gmail.com</a>
     </div>
     <!---box tecnologias-->
     <div class="Box-Tecnologias">
       <h2 id="tecnologias">Tecnologias</h2>
-      <div class="div-text-tec"><p id="p-tec">HTML5</p></div>
-      <div class="div-text-tec"><p id="p-tec">CSS3</p></div>
-      <div class="div-text-tec"><p id="p-tec" >JAVASCRIPT</p></div>
+      <div class="div-text-tec">
+        <p id="p-tec">HTML5</p>
+      </div>
+      <div class="div-text-tec">
+        <p id="p-tec">CSS3</p>
+      </div>
+      <div class="div-text-tec">
+        <p id="p-tec">JAVASCRIPT</p>
+      </div>
       <br>
-      <div class="div-text-tec"><p id="p-tec">BOOTSTRAP</p></div>
-      <div class="div-text-tec"><p id="p-tec">GIT</p></div>
-      <div class="div-text-tec"><p id="p-tec">SCRUM</p></div>
+      <div class="div-text-tec">
+        <p id="p-tec">BOOTSTRAP</p>
+      </div>
+      <div class="div-text-tec">
+        <p id="p-tec">GIT</p>
+      </div>
+      <div class="div-text-tec">
+        <p id="p-tec">SCRUM</p>
+      </div>
     </div>
     <!---box Educação-->
     <div class="box-educ">
-      <h2 id="educacao">Cursos</h2>
-      <h3 id="educ">Uninassau</h3>
-      <p id="p-educ">Tecnologo, Analise e desenvolvimento de sistemas</p>
-      <h3 id="educ">Digital Innovation One inc.</h3>
-      <p id="p-educ">Programação para internet com JavaScript</p>
-      <h3 id="educ">CertiProf</h3>
-      <p id="p-educ">Scrum Foundation Professional</p>
+      <h2 id="educacao">Educação</h2>
+      <ul class="p-educ">
+        <li>Uninassau</li>
+        <p>Analise e Desenvolvimento de Sistemas</p>
+        <li>Digital Innovation One</li>
+        <p>Programação para Internet Com JavaScript</p>
+        <li>CertiProf</li>
+        <p>Scrum Foundation Professional</p>
+
+      </ul>
     </div>
   </section>
-  <div>
+  <div class="geral-pr">
     <!---box meus projetos-->
     <div class="Titulo-projetos">
-      <h2>Meus projetos</h2>
-      <!-- <p id="p-titulo">Ver todos</p> -->
+      <h2 class="p-titulo">Meus projetos</h2>
     </div>
     <!---box projeto 1-->
     <section class="boxs-projetos">
-    <div class="projeto">
-      <img id="img-projeto"src="./assets/folder.svg" alt="">
-      <a id="titulo-projeto"href="https://jonatas1565.github.io/MaratonaDiscovery/">Dev.Finance$</a>
-      <p>Organizador financeiro</p>
-      <a id="repositorio" href="https://github.com/jonatas1565/MaratonaDiscovery">Repositório</a>
-    </div>
-    <!---box projeto 2-->
-    <div class="projeto">
-      <img id="img-projeto" src="./assets/folder.svg" alt="">
-      <a id="titulo-projeto" href="https://jonatas1565.github.io/RocketShoes/">RocketShoes</a>
-      <p>Pagina de divulgação de um tênis</p>
-      <a id="repositorio" href="https://github.com/jonatas1565/RocketShoes">Repositório</a>
-    </div>
-    <!--box projeto 3--->
-    <div class="projeto">
-      <img id="img-projeto" src="./assets/folder.svg" alt="">
-      <a id="titulo-projeto" href="https://jonatas1565.github.io/RocketShoes/">RocketShoes</a>
-      <p>Pagina de divulgação de um tênis</p>
-      <a id="repositorio" href="https://github.com/jonatas1565/RocketShoes">Repositório</a>
-    </div>
-     <!---box recent post-->
-     <div class="projeto">
-      <img id="img-projeto" src="./assets/folder.svg" alt="">
-      <a id="titulo-projeto" href="https://jonatas1565.github.io/RocketShoes/">RocketShoes</a>
-      <p>Pagina de divulgação de um tênis</p>
-      <a id="repositorio" href="https://github.com/jonatas1565/RocketShoes">Repositório</a>
-    </div>
-    </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Dev.Finance$ </h5>
+        
+          <p class="card-text">Sistema de controle financeiro que pode adicionar quanto você recebe e quanto gastou e saber a diferença.</p>
+          <a href="https://jonatas1565.github.io/MaratonaDiscovery/" target="_Blank" class="card-link">Site</a>
+          <a href="https://github.com/jonatas1565/MaratonaDiscovery" target="_Blank" class="card-link">Repositório</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Leitor de Excel com Js</h5>
+          
+          <p class="card-text">Sistema que pega as notas da planilha Excel e dá gráficos baseados na tabela.</p>
+         
+          <a href="https://jonatas1565.github.io/Abrir-Execel-em-Js/" target="_Blank" class="card-link">Site</a>
+          <a href="https://github.com/jonatas1565/Abrir-Execel-em-Js" target="_Blank" class="card-link">Repositório</a>
+          <a href="./assets/plan_notas.xlsx" class="card-link" download="plan_notas.xlsx">Tabela</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Qualidade Do Ar</h5>
+          
+          <p class="card-text">Sistema Desenvolvido para pegar a qualidade do ar na cidade em que o site está sendo acessado.</p>
+          <a href="https://jonatas1565.github.io/Qualidade-do-ar/" target="_Blank" class="card-link">Site</a>
+          <a href="https://github.com/jonatas1565/Qualidade-do-ar"target="_Blank"  class="card-link">Repositório</a>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">TecHub</h5>
+          
+          <p class="card-text">Projeto de conclusão, site de trilhas para quem quer mudar de sua área para a área de ti.</p>
+          <a href="https://jonatas1565.github.io/TecHub/" target="_Blank"  class="card-link">Site</a>
+          <a href="https://github.com/jonatas1565/TecHub" target="_Blank" class="card-link">Repositório</a>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">RocketShoes</h5>
+          
+          <p class="card-text">LandingPage de um Tênis.</p>
+          <a href="https://jonatas1565.github.io/RocketShoes/" target="_Blank"  class="card-link">Site</a>
+          <a href="https://github.com/jonatas1565/RocketShoes" target="_Blank" class="card-link">Repositório</a>
+        </div>
+      </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
