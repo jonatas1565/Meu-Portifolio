@@ -18,7 +18,10 @@ a,
 li {
   color: #837e9f;
 }
-
+h2{
+  font-size: 25px;
+  margin-left: 4%;
+}
 /* Style Box perfil*/
 .Box-perfil {
   background-color: #302f3d;
@@ -29,7 +32,7 @@ li {
   border-radius: 20px;
   padding-top: 4%;
   padding-left: 10%;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
 #img-perfil {
@@ -61,7 +64,7 @@ li {
   border-radius: 20px;
   position: relative;
 
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
 #img-cnt {
@@ -98,7 +101,7 @@ li {
 
   padding-left: 3%;
   padding-top: 2%;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
 #tecnologias {
@@ -137,7 +140,7 @@ li {
 
   border-radius: 20px;
 
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
   padding-left: 3%;
   padding-top: 2%;
 
@@ -168,10 +171,40 @@ li {
 .boxs-projetos{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .card{
     margin-left: 1%;
     margin-top: 1%;
     background-color: #302f3d;
     color: #837e9f;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 800px){
+body{
+  display: inline;
+}
+
+.Box-perfil{
+  padding-left: 19%;
+}
+
+
+
+.Titulo-projetos{
+  width: 91%;
+  margin-left: 4%;
+}
+
+section{
+  justify-content: center;
+}
+
+.Box-Tecnologias{
+  padding-bottom: 15px;
+}
+.div-text-tec{
+  margin-left: 4%;
+}
 }
