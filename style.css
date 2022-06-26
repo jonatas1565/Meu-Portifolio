@@ -20,7 +20,7 @@ li {
 }
 h2{
   font-size: 25px;
-  margin-left: 4%;
+ 
 }
 /* Style Box perfil*/
 .Box-perfil {
@@ -53,6 +53,9 @@ h2{
 }
 
 /* Style Box Contato*/
+.tit{
+margin-left:3%;
+}
 .Box-Contato {
   background-color: #302f3d;
 
@@ -158,7 +161,7 @@ li {
 .Titulo-projetos {
   background-color: #302f3d;
   margin-top: 1%;
-  padding-left: 2%;
+  
 
   width: 60rem;
   height: 4.5%;
