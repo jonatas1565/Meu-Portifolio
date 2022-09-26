@@ -5,6 +5,9 @@
 
   font-family: "Merriweather Sans";
 }
+marquee{
+  color:#F6DD00;
+}
 body {
   background-color: #22212c;
   display: flex;
@@ -95,7 +98,7 @@ margin-left:3%;
   background-color: #302f3d;
 
   width: 90%;
-  height: 24%;
+  height: 19%;
 
   border-radius: 20px;
 
@@ -107,8 +110,7 @@ margin-left:3%;
   /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
-#tecnologias {
-}
+
 
 .div-text-tec {
   display: inline-grid;
@@ -161,7 +163,9 @@ li {
 .Titulo-projetos {
   background-color: #302f3d;
   margin-top: 1%;
-  
+
+  padding-top: 0.8%;
+  padding-left: 1%;  
 
   width: 60rem;
   height: 4.5%;
